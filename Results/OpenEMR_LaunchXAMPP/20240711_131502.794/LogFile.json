@@ -1,0 +1,47 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_LaunchXAMPP.script",
+				"identifier": "START",
+				"timestamp": "2024-07-11 13:15:02.847 -0400"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-11 13:15:03.872 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (26, 1057)",
+				"image": "Win10_StartButton",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-11 13:15:06.128 -0400",
+				"message": "xampp control panel[return]",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-11 13:15:06.218 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "Could Not Open Image: XAMPP_Icon_sm",
+				"image": "XAMPP_Icon_sm",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"3.533\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-07-11 13:15:02 -0400\", Successes:\"0\", TestCase:\"OpenEMR_LaunchXAMPP.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-11 13:15:06.420 -0400"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "File Not Found: waitfor Error - Could Not Open Image: XAMPP_Icon_sm -- Execution Time 0:00:03 OpenEMR_LaunchXAMPP.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-07-11 13:15:07.390 -0400"
+			}
+	],
+	"createdTimestamp": "2024-07-11 13:15:02.865 -0400"
+}

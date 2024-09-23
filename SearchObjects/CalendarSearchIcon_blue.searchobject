@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		104,
+		242,
+		42,
+		38
+	],
+	"lastmodifieddate": 1721236769.9879999,
+	"createddate": 1721236718.9400001,
+	"name": "CalendarSearchIcon_blue",
+	"lastfounddate": 1721316144.95,
+	"ocrcapturestring": "Q",
+	"lastfoundlocation": [
+		104,
+		243,
+		42,
+		38
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,16]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "CalendarSearchIcon_blue/CalendarSearchIcon_blue.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"connectionserverid": "192.168.4.62",
+				"capturerect": [
+					104,
+					242,
+					42,
+					38
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Q"
+			}
+	]
+}

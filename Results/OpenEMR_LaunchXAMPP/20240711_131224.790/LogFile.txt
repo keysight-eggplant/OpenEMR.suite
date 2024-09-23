@@ -1,0 +1,4 @@
+﻿2024-07-11 13:12:24.860 -0400	START		Running OpenEMR_LaunchXAMPP.script
+2024-07-11 13:12:26.120 -0400	Exception	Win10_StartButton	Could Not Open Image: Win10_StartButton	1	on_openemr_launchxampp	OpenEMR_LaunchXAMPP.script
+2024-07-11 13:12:26.908 -0400	EndTestCase		(Duration:"2.02", Errors:"1", Exceptions:"1", StartTime:"2024-07-11 13:12:24 -0400", Successes:"0", TestCase:"OpenEMR_LaunchXAMPP.script", Warnings:"0")
+2024-07-11 13:12:27.575 -0400	FAILURE	Screen_Error.png	File Not Found: click Error - Could Not Open Image: Win10_StartButton -- Execution Time 0:00:02 OpenEMR_LaunchXAMPP.script

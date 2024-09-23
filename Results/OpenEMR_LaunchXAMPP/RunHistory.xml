@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="OpenEMR_LaunchXAMPP">
+ <run>
+  <RunDate>2024-07-11 13:12:24.790 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.112000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240711_131224.790/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: Win10_StartButton</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-11 13:15:02.794 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>3.612000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240711_131502.794/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: XAMPP_Icon_sm</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-18 09:45:13.253 -0400</RunDate>
+  <Status>Success</Status>
+  <Duration>12.015000</Duration>
+  <Errors>0</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20240718_094513.253/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

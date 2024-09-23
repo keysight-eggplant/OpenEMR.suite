@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		902,
+		377,
+		182,
+		34
+	],
+	"lastmodifieddate": 1720718527.408,
+	"createddate": 1720718527.408,
+	"name": "openEMR",
+	"lastfounddate": 1721236198.2319999,
+	"ocrcapturestring": "openEMR",
+	"lastfoundlocation": [
+		902,
+		377,
+		182,
+		34
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[53,12]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "openEMR.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"connectionserverid": "192.168.4.62",
+				"capturerect": [
+					902,
+					377,
+					182,
+					34
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "openEMR"
+			}
+	]
+}

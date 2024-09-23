@@ -1,0 +1,168 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_Login.script",
+				"identifier": "START",
+				"timestamp": "2024-03-26 15:49:28.568 -0400"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:28.831 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:28.899 -0400",
+				"message": "The default remote work interval is 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:28.907 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:28.945 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:28.959 -0400",
+				"message": "remoteWorkInterval = 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:29.017 -0400",
+				"message": "The current remote work interval is 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-03-26 15:49:29.539 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "at (595, 489)",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-03-26 15:49:31.854 -0400",
+				"message": "jmarkovic[tab]",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-03-26 15:49:34.299 -0400",
+				"message": "<Encoded Text>",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 4,
+				"identifier": "typeencodedtext"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-03-26 15:49:36.338 -0400",
+				"message": "[tab]",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:36.364 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:36.408 -0400",
+				"message": "The default remote work interval is 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:36.417 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:36.457 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:36.478 -0400",
+				"message": "remoteWorkInterval = 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:49:36.516 -0400",
+				"message": "The current remote work interval is 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-03-26 15:49:39.184 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "at (799, 653)",
+				"image": "(TEXT:\"Login\")",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-03-26 15:49:49.213 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "Could Not Open Image: MyRefreshIcon",
+				"image": "MyRefreshIcon",
+				"handlerLine": 11,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"20.698\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-03-26 15:49:28 -0400\", Successes:\"0\", TestCase:\"OpenEMR_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-03-26 15:49:49.273 -0400"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "File Not Found: waitfor Error - Could Not Open Image: MyRefreshIcon -- Execution Time 0:00:20 OpenEMR_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-03-26 15:49:49.478 -0400"
+			}
+	],
+	"createdTimestamp": "2024-03-26 15:49:28.573 -0400"
+}

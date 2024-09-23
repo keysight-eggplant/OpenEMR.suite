@@ -1,0 +1,103 @@
+﻿//Set globals
+global myConnectionString
+global myRecordCount
+global myCurrentRecord
+
+OpenEMR_InitialState -- establishes connection to SUT and to Excel
+
+OpenEMR_Launch --  launches OpenEMR
+
+OpenEMR_Login -- logs in to OpenEMR
+
+OpenEMR_VerifyLoginUserAndProviderSchedule.CheckProviderCalendar -- verifies provider schedule
+
+OpenEMR_VerifyLoginUserAndProviderSchedule.CheckLoginUserName "Jerry Markovic" -- verifies user login
+
+//Create new patient
+//Begin patient search
+Click text:"Patient", waitFor:1,SearchRectangle:HandlerGarage.ScreenPart("HyperspacePatientHeader")
+Set mySearchArea to (FoundImageLocation(),FoundImageLocation()) + ((-25,10),(100,100))
+Click text:"Add Patient", waitFor:1,SearchRectangle:mySearchArea
+(*set myCurrentPatient to the record of myConnectionString where "_pk_" = (1000 + myCurrentRecord)*)
+
+
+//Set search areas for OpenEMR "Who" section
+Wait 1
+
+Set myDemographicsRowHeadersSearchArea to ImageRectangle(text:"Who", waitFor:5,SearchRectangle:HandlerGarage.ScreenPart("HorizontalMiddle")) +(-2,40,170,400)
+Set myNameRowSearchArea to ImageRectangle(text:"Name", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea) + (250,-10,900,16)
+Set myBirthNameRowSearchArea to ImageRectangle(text:"Birth Name", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea) + (250,-10,900,16)
+Set myDOB_SexRowSearchArea to ImageRectangle(text:"DOB", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea) + (250,-10,900,16)
+
+//Enter demographics for search
+(*Repeat 5 times
+	TypeText tab
+End Repeat*)
+Click text:"Middle", waitFor:1,SearchRectangle:myNameRowSearchArea
+TypeText shiftKey,tab
+TypeText global myCurrentPatient.FirstName,Tab,Tab
+TypeText global myCurrentPatient.LastName,Tab
+TypeText tab, tab, tab, tab, tab
+
+--Click text:"DOB", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea,HotSpot:(350,5)
+TypeText global myCurrentPatient.DOB,Tab
+TypeText global myCurrentPatient.Gender,Tab
+
+Repeat with EveryImageLocation(Image:"OpenEMR_Warning", WaitFor:1)
+	Click IT
+	Click (10,800)
+End Repeat
+
+
+--(536,501,771,686)
+
+OpenEMR_VerifySearchInformation myCurrentPatient, myNameRowSearchArea, myDOB_SexRowSearchArea -- verifies demographics from previous steps
+
+Run HandlerGarage.ScrollToFindText "Create New Patient",HandlerGarage.ScreenPart("BottomTenth"),(800,450),Y
+set mySearchPatientSearchArea to (FoundImageLocation(),FoundImageLocation())-((200,8),(100,-8))
+Click text:"Search",WaitFor:1,SearchRectangle:mySearchPatientSearchArea,CaseSenstive:Yes
+
+If ImageFound(text:"[Help]", waitFor:1,SearchRectangle:HandlerGarage.ScreenPart("TopLeftQuadrant")) then
+	Log "There is a possible match"
+	--(467,148,506,167)
+	--(464,225,901,256)
+End If
+
+If ImageFound(text:"0 of 0", waitFor:1,SearchRectangle:HandlerGarage.ScreenPart("HyperspacePatientHeader")) then
+	Log "There were no matching patients located."
+End If
+
+Click (Image:"OpenEMR_CloseX", WaitFor:1)
+
+Run HandlerGarage.ScrollUpToFindText "Who",HandlerGarage.ScreenPart("TopLeftQuadrant"),(800,450),Y
+
+//Set search areas for OpenEMR Who
+Wait 1
+WaitFor 10, text:"Employer",SearchRectangle:HandlerGarage.ScreenPart("BottomTenth")
+MoveTo (800,450)
+Set myDemographicsRowHeadersSearchArea to ImageRectangle(text:"Who", waitFor:5,SearchRectangle:HandlerGarage.ScreenPart("TopLeftQuadrant")) +(-2,40,170,350)
+Set mySOGI_RowSearchArea to ImageRectangle(text:"Gender Identity", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea) + (280,-1,900,16)
+Set myExternalID_RowSearchArea to ImageRectangle(text:"External ID", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea) + (250,-10,900,16)
+Set myLicenseID_RowSearchArea to ImageRectangle(text:"License/ID", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea) + (250,-10,900,16)
+
+//Enter secondary demographics
+Click text:"Unassigned", waitFor:1,SearchRectangle:mySOGI_RowSearchArea,ValidWords:"*"
+TypeText myCurrentPatient.GenderIdentity,Tab,Tab
+TypeText myCurrentPatient.SexualOrientation,Tab,Tab
+TypeText myCurrentPatient.SSN,Tab,Tab
+TypeText myCurrentPatient.MaritalStatus,Tab
+
+OpenEMR_VerifySecondaryDemographics myCurrentPatient, mySOGI_RowSearchArea, myExternalID_RowSearchArea, myLicenseID_RowSearchArea -- verifies demographics from previous steps
+
+
+Run HandlerGarage.ScrollToFindText "Create New Patient",HandlerGarage.ScreenPart("BottomTenth"),(800,450),Y
+
+Click FoundImageLocation()
+
+Click text:"Create New Patient",WaitFor:1,SearchRectangle:HandlerGarage.ScreenPart("VerticalMiddle"),CaseSenstive:Yes
+
+WaitFor 10.0, "OpenEMR_MedicalRecordHelpIcon"
+
+set myCurrentPatient.MRN to ReadText(ImageRectangle(text:"External ID", waitFor:1,SearchRectangle:HandlerGarage.ScreenPart("BottomLeftQuadrant"))+(70,-2,120,2))
+
+Log "The patient MRN is"&&myCurrentPatient.MRN

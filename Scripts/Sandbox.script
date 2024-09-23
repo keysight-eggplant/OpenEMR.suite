@@ -1,0 +1,5 @@
+﻿put the nextKeyDelay into DefaultNKD -- saves current NextKeyDelay value
+
+SetOption nextKeyDelay, .05 -- increases NKD to .05
+
+SetOption nextKeyDelay, DefaultNKD -- restores original NKD value

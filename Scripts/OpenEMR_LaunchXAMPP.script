@@ -1,0 +1,35 @@
+﻿Click "Win10_StartButton"
+Wait 1
+TypeText "xampp control panel",Return
+WaitFor 10.0, "XAMPP_Icon_sm"
+
+Put ImageRectangle(text:"Apache", waitFor:1,SearchRectangle:HandlerGarage.ScreenPart("TopLeftQuadrant")) + (245,0,240,3) into myApacheStartSearchArea
+Put ImageRectangle(text:"MySQL", waitFor:1,SearchRectangle:HandlerGarage.ScreenPart("TopLeftQuadrant")) + (245,0,240,3) into myMySQLStartSearchArea
+Put ImageRectangle(text:"Tomcat", waitFor:1,SearchRectangle:HandlerGarage.ScreenPart("TopLeftQuadrant")) + (245,0,240,3) into myTomcatStartSearchArea
+Click text:"Start", waitFor:1,SearchRectangle:myApacheStartSearchArea
+Click text:"Start",waitFor:1,SearchRectangle:myMySQLStartSearchArea
+Click text:"Start",waitFor:1,SearchRectangle:myTomcatStartSearchArea
+MoveTo (800,600)
+
+If ImageFound(text:"Stop", waitFor:1,SearchRectangle:myApacheStartSearchArea) then
+	LogSuccess "The Apache service has started."
+Else
+	LogError "The Apache service has NOT started"
+	Exit All
+End If
+
+If ImageFound(text:"Stop", waitFor:1,SearchRectangle:myMySQLStartSearchArea) then
+	LogSuccess "The MySQL service has started."
+Else
+	LogError "The MySQL service has NOT started"
+	Exit All
+End If
+
+If ImageFound(text:"Stop", waitFor:1,SearchRectangle:myTomcatStartSearchArea) then
+	LogSuccess "The Tomcat service has started."
+Else
+	LogWarning "The Tomcat service has NOT started"
+End If
+
+TypeText OptionKey,F4
+

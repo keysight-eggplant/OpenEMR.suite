@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Sandbox_script" package="OpenEMR.suite" timestamp="2024-07-15 08:38:41.484 -0400"
+ tests="1"  failures="0" errors="0" time="0.137000">
+  <properties>
+   <property name="RunDate" value="2024-07-15 08:38:41.484 -0400"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Sandbox.script" assertions="1" status="success"  time="0.109">
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+﻿on CheckProviderCalendar
+	//Confirm that calendar has finished loading
+	WaitFor 1.0, "OpenEMR_CloseProviderScheduleX"
+	set mySchedulingProviderFirstLastName to "Elizabeth Corday"
+	set mySchedulingProviderReadArea to HandlerGarage.ReturnSearchRectangle ("OpenEMR_CloseProviderScheduleX", 250,20,-900, 0)
+	set mySchedulingProviderName to ReadText(mySchedulingProviderReadArea)
+	If mySchedulingProviderName = mySchedulingProviderFirstLastName then
+		LogSuccess "The correct provider schedule is displayed"
+	else
+		LogWarning "The correct provider schedule is NOT displayed"
+	End If
+end CheckProviderCalendar
+
+on CheckLoginUserName UserName
+	//Verify correct login user
+	put ImageRectangle(Image:"OpenEMR_UserIcon", WaitFor:30) + (-120, 20, 0, 50) into myLoginUserReadArea
+	Click FoundImageLocation()
+	TypeText escapeKey
+	set myLoginUserFirstLastName to UserName
+	set myLoginUserName to ReadText(myLoginUserReadArea)
+	If myLoginUserName contains myLoginUserFirstLastName then
+		LogSuccess "You have successfully logged in"
+	else
+		LogWarning "You have NOT successfully logged in "
+	End If
+	Click (800,200)
+end CheckLoginUserName

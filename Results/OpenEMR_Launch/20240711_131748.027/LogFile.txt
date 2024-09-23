@@ -1,0 +1,14 @@
+﻿2024-07-11 13:17:48.074 -0400	START		Running OpenEMR_Launch.script
+2024-07-11 13:17:49.245 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:17:49.550 -0400	Log		The default remote work interval is 0.07	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:17:49.581 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:17:49.725 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:17:49.748 -0400	setoption		remoteWorkInterval = 0.07	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:17:49.927 -0400	Log		The current remote work interval is 0.07	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:18:32.291 -0400	imagefound	(TEXT:"Electronic Health Record")	Unable to Find Image (TEXT:"Electronic Health Record"). Text not found.	1	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:18:33.098 -0400	typetext		[windowsKey]r	6	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:18:33.565 -0400	waitfor	WindowsRunIcon	found at (49, 891)	7	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:18:36.160 -0400	typetext		http://localhost/openemr/interface/login/login.php?site=default[return]	8	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:18:58.420 -0400	waitfor	(TEXT:"Electronic Health Record")	found at (1038, 510)	11	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:18:58.784 -0400	EndTestCase		(Duration:"70.649", Errors:"0", Exceptions:"0", StartTime:"2024-07-11 13:17:48 -0400", Successes:"1", TestCase:"OpenEMR_Launch.script", Warnings:"0")
+2024-07-11 13:18:59.545 -0400	SUCCESS		Execution Time 0:01:10 OpenEMR_Launch.script

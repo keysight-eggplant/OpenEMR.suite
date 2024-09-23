@@ -1,0 +1,17 @@
+﻿2024-07-17 22:21:36.953 -0400	START		Running OpenEMR_PatientCreation.script
+2024-07-17 22:21:38.830 -0400	Connect		NewTower:(null)	7	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-07-17 22:21:38.836 -0400	Log		My data is contained in data_OREG-1.xlsx	11	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-07-17 22:21:38.855 -0400	Log		There are 6 records in my Excel	14	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-07-17 22:22:09.688 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:22:09.723 -0400	Log		The default remote work interval is 0.07	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:22:09.730 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:22:09.762 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:22:09.777 -0400	setoption		remoteWorkInterval = 0.07	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:22:09.809 -0400	Log		The current remote work interval is 0.07	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:22:15.718 -0400	imagefound	(TEXT:"Electronic Health Record")	Unable to Find Image (TEXT:"Electronic Health Record"). Text not found.	1	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:23:31.115 -0400	typetext		[windowsKey]r	7	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:23:31.505 -0400	waitfor	WindowsRunIcon	found at (49, 891)	8	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:23:33.606 -0400	typetext		http://localhost/openemr/interface/login/login.php?site=default[return]	9	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:23:39.036 -0400	waitfor	(TEXT:"Electronic Health Record")	found at (1038, 510)	11	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:24:05.324 -0400	EndTestCase		(Duration:"148.352", Errors:"1", Exceptions:"0", StartTime:"2024-07-17 22:21:36 -0400", Successes:"0", TestCase:"OpenEMR_PatientCreation.script", Warnings:"0")
+2024-07-17 22:24:05.341 -0400	ABORTED		Execution Time 0:02:28 OpenEMR_PatientCreation.script

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenEMR_Login_script" package="OpenEMR.suite" timestamp="2024-03-26 15:49:28.560 -0400"
+ tests="1"  failures="1" errors="1" time="20.711000">
+  <properties>
+   <property name="RunDate" value="2024-03-26 15:49:28.560 -0400"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="OpenEMR_Login.script" assertions="1" status="error"  time="20.698">
+    <failure type="FAILURE" message="File Not Found: waitfor Error - Could Not Open Image: MyRefreshIcon -- Execution Time 0:00:20 OpenEMR_Login.script" />
+    <error type="Exception" message="Could Not Open Image: MyRefreshIcon" />
+  </testcase>
+ </testsuite>
+</testsuites>

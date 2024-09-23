@@ -1,0 +1,311 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_LaunchXAMPP.script",
+				"identifier": "START",
+				"timestamp": "2024-07-18 09:45:13.266 -0400"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:13.704 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (26, 1057)",
+				"image": "Win10_StartButton",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:15.853 -0400",
+				"message": "xampp control panel[return]",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:16.554 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "found at (23, 13)",
+				"image": "XAMPP_Icon_sm",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:16.679 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:16.780 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:16.801 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:16.862 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:16.886 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:16.931 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:18.153 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at [84,105,122,115]",
+				"image": "(TEXT:\"Apache\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:18.267 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:18.387 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:18.400 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:18.471 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:18.491 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:18.541 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:19.750 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at [86,133,120,143]",
+				"image": "(TEXT:\"MySQL\")",
+				"handlerLine": 7,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:19.876 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:20.005 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:20.025 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:20.087 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:20.115 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 09:45:20.167 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:21.352 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at [86,220,120,228]",
+				"image": "(TEXT:\"Tomcat\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:21.703 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (346, 111)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:22.092 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (346, 139)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:22.431 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (346, 224)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 11,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:22.540 -0400",
+				"message": "at (800, 600)",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 12,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:22.852 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "found at (345, 112)",
+				"image": "(TEXT:\"Stop\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:22.867 -0400",
+				"message": "The Apache service has started.",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 15,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:23.580 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "found at (345, 140)",
+				"image": "(TEXT:\"Stop\")",
+				"handlerLine": 21,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:23.589 -0400",
+				"message": "The MySQL service has started.",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 22,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:24.954 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "Unable to Find Image (TEXT:\"Stop\"). Text not found.",
+				"image": "(TEXT:\"Stop\")",
+				"handlerLine": 28,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:24.966 -0400",
+				"message": "The Tomcat service has NOT started",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 31,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 09:45:25.101 -0400",
+				"message": "[optionKey][F4]",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"11.977\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-07-18 09:45:13 -0400\", Successes:\"2\", TestCase:\"OpenEMR_LaunchXAMPP.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-18 09:45:25.270 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:12 OpenEMR_LaunchXAMPP.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-07-18 09:45:25.427 -0400"
+			}
+	],
+	"createdTimestamp": "2024-07-18 09:45:13.291 -0400"
+}

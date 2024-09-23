@@ -1,0 +1,21 @@
+﻿2024-03-26 15:49:28.568 -0400	START		Running OpenEMR_Login.script
+2024-03-26 15:49:28.831 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:28.899 -0400	Log		The default remote work interval is 2	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:28.907 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:28.945 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:28.959 -0400	setoption		remoteWorkInterval = 2	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:29.017 -0400	Log		The current remote work interval is 2	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:29.539 -0400	click	(TEXT:"Username")	at (595, 489)	2	on_openemr_login	OpenEMR_Login.script
+2024-03-26 15:49:31.854 -0400	typetext		jmarkovic[tab]	3	on_openemr_login	OpenEMR_Login.script
+2024-03-26 15:49:34.299 -0400	typeencodedtext		<Encoded Text>	4	on_openemr_login	OpenEMR_Login.script
+2024-03-26 15:49:36.338 -0400	typetext		[tab]	5	on_openemr_login	OpenEMR_Login.script
+2024-03-26 15:49:36.364 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:36.408 -0400	Log		The default remote work interval is 2	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:36.417 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:36.457 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:36.478 -0400	setoption		remoteWorkInterval = 2	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:36.516 -0400	Log		The current remote work interval is 2	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:49:39.184 -0400	click	(TEXT:"Login")	at (799, 653)	9	on_openemr_login	OpenEMR_Login.script
+2024-03-26 15:49:49.213 -0400	Exception	MyRefreshIcon	Could Not Open Image: MyRefreshIcon	11	on_openemr_login	OpenEMR_Login.script
+2024-03-26 15:49:49.273 -0400	EndTestCase		(Duration:"20.698", Errors:"1", Exceptions:"1", StartTime:"2024-03-26 15:49:28 -0400", Successes:"0", TestCase:"OpenEMR_Login.script", Warnings:"0")
+2024-03-26 15:49:49.478 -0400	FAILURE	Screen_Error.png	File Not Found: waitfor Error - Could Not Open Image: MyRefreshIcon -- Execution Time 0:00:20 OpenEMR_Login.script

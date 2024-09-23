@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenEMR_PatientCreation_script" package="OpenEMR.suite" timestamp="2024-07-11 12:46:30.349 -0400"
+ tests="1"  failures="1" errors="2" time="1525.760000">
+  <properties>
+   <property name="RunDate" value="2024-07-11 12:46:30.349 -0400"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="OpenEMR_PatientCreation.script" assertions="1" status="error"  time="1525.667">
+    <failure type="FAILURE" message="File Not Found: click Error - Could Not Open Image: Win10_StartButton -- Execution Time 0:25:25 OpenEMR_PatientCreation.script" />
+    <error type="Exception" message="Could Not Open Image: Win10_StartButton" />
+  </testcase>
+ </testsuite>
+</testsuites>

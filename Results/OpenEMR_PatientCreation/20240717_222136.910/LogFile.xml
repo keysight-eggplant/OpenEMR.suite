@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenEMR_PatientCreation_script" package="OpenEMR.suite" timestamp="2024-07-17 22:21:36.910 -0400"
+ tests="1"  failures="0" errors="0" time="148.412000">
+  <properties>
+   <property name="RunDate" value="2024-07-17 22:21:36.910 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="OpenEMR_PatientCreation.script" assertions="1" status="failure"  time="148.352">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

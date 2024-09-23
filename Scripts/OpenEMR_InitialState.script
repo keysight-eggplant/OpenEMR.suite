@@ -1,0 +1,19 @@
+﻿//Set globals
+global myConnectionString
+global myRecordCount
+global myCurrentRecord
+
+//Connect to System Under Test
+Connect "NewTower"
+
+//Create connection to Patient spreadsheet
+put "data_OREG-1.xlsx" into datafilename
+Log "My data is contained in"&&datafilename
+Set myConnectionString to (type:"excel",file:ResourcePath(datafilename),writeable:Yes)
+set myRecordCount to the number of records of myConnectionString
+Log "There are"&&myRecordCount&&"records in my Excel"
+Ask "What is the starting record number?" with "1" title "Starting Record"
+put IT into myCurrentRecord
+
+
+

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		939,
+		745,
+		41,
+		20
+	],
+	"lastmodifieddate": 1720718570.217,
+	"createddate": 1720718570.217,
+	"name": "Login",
+	"lastfounddate": 1721236198.3559999,
+	"ocrcapturestring": "Login",
+	"lastfoundlocation": [
+		939,
+		745,
+		41,
+		20
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[33,8]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Login.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"connectionserverid": "192.168.4.62",
+				"capturerect": [
+					939,
+					745,
+					41,
+					20
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Login"
+			}
+	]
+}

@@ -1,0 +1,2 @@
+﻿Click (Image:"OpenEMR_Employer", WaitFor:3)
+Click (Image:"OpenEMR_Occupation", WaitFor:2)

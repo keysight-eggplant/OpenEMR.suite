@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenEMR_PatientCreation_script" package="OpenEMR.suite" timestamp="2024-07-18 09:39:46.395 -0400"
+ tests="1"  failures="0" errors="0" time="66.583000">
+  <properties>
+   <property name="RunDate" value="2024-07-18 09:39:46.395 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="OpenEMR_PatientCreation.script" assertions="1" status="error"  time="66.512">
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;(TEXT:&quot;Electronic Health Record&quot;)&quot; within 10.00 seconds. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

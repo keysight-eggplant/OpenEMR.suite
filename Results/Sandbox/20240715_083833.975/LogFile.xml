@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Sandbox_script" package="OpenEMR.suite" timestamp="2024-07-15 08:38:33.975 -0400"
+ tests="1"  failures="1" errors="0" time="0.259000">
+  <properties>
+   <property name="RunDate" value="2024-07-15 08:38:33.975 -0400"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Sandbox.script" assertions="1" status="failure"  time="0.237">
+    <failure type="FAILURE" message="STUnknownMessage: ERROR: No Such Function: &apos;nextkeydelay&apos; -- Execution Time 0:00:00 Sandbox.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

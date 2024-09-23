@@ -1,0 +1,4 @@
+﻿2024-07-15 08:39:36.602 -0400	START		Running Sandbox.script
+2024-07-15 08:39:36.759 -0400	setoption		nextKeyDelay = 0.05	3	on_sandbox	Sandbox.script
+2024-07-15 08:39:36.820 -0400	EndTestCase		(Duration:"0.209", Errors:"0", Exceptions:"0", StartTime:"2024-07-15 08:39:36 -0400", Successes:"1", TestCase:"Sandbox.script", Warnings:"0")
+2024-07-15 08:39:36.922 -0400	SUCCESS		Execution Time 0:00:00 Sandbox.script

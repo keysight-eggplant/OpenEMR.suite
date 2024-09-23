@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenEMR_LaunchXAMPP_script" package="OpenEMR.suite" timestamp="2024-07-18 09:45:13.253 -0400"
+ tests="1"  failures="0" errors="0" time="12.015000">
+  <properties>
+   <property name="RunDate" value="2024-07-18 09:45:13.253 -0400"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="OpenEMR_LaunchXAMPP.script" assertions="2" status="success"  time="11.977">
+  </testcase>
+ </testsuite>
+</testsuites>

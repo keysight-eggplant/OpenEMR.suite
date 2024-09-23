@@ -1,0 +1,15 @@
+﻿2024-07-17 22:24:49.628 -0400	START		Running OpenEMR_Launch.script
+2024-07-17 22:24:49.869 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:24:49.926 -0400	Log		The default remote work interval is 0.07	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:24:49.939 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:24:49.972 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:24:49.995 -0400	setoption		remoteWorkInterval = 0.07	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:24:50.030 -0400	Log		The current remote work interval is 0.07	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:24:55.942 -0400	imagefound	(TEXT:"Electronic Health Record")	Unable to Find Image (TEXT:"Electronic Health Record"). Text not found.	1	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:24:56.050 -0400	typetext		[windowsKey]r	7	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:24:56.467 -0400	waitfor	WindowsRunIcon	found at (49, 891)	8	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:24:58.583 -0400	typetext		http://localhost/openemr/interface/login/login.php?site=default[return]	9	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:28:38.878 -0400	waitfor	(TEXT:"Electronic Health Record")	found at (1038, 510)	11	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:28:42.411 -0400	waitfor	(TEXT:"Electronic Health Record")	found at (1038, 510)	14	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:28:43.118 -0400	EndTestCase		(Duration:"233.471", Errors:"0", Exceptions:"0", StartTime:"2024-07-17 22:24:49 -0400", Successes:"1", TestCase:"OpenEMR_Launch.script", Warnings:"0")
+2024-07-17 22:28:43.528 -0400	SUCCESS		Execution Time 0:03:53 OpenEMR_Launch.script

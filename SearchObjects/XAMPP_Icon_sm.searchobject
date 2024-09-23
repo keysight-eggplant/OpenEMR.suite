@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		13,
+		3,
+		21,
+		20
+	],
+	"lastmodifieddate": 1721310289.053,
+	"createddate": 1721310289.053,
+	"name": "XAMPP_Icon_sm",
+	"lastfounddate": 1721316327.119,
+	"ocrcapturestring": "EO",
+	"lastfoundlocation": [
+		13,
+		3,
+		21,
+		20
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[10,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "XAMPP_Icon_sm.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"connectionserverid": "192.168.4.62",
+				"capturerect": [
+					13,
+					3,
+					21,
+					20
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "EO"
+			}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1878,
+		294,
+		18,
+		18
+	],
+	"lastmodifieddate": 1721237654.8699999,
+	"createddate": 1721237654.8699999,
+	"name": "OpenEMR_CloseProviderScheduleX/OpenEMR_CloseProviderScheduleX_green",
+	"lastfounddate": 1721270860.4960001,
+	"ocrcapturestring": "□",
+	"lastfoundlocation": [
+		1878,
+		333,
+		18,
+		18
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[9,8]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "OpenEMR_CloseProviderScheduleX/OpenEMR_CloseProviderScheduleX_green.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"connectionserverid": "192.168.4.62",
+				"capturerect": [
+					1878,
+					294,
+					18,
+					18
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "□"
+			}
+	]
+}

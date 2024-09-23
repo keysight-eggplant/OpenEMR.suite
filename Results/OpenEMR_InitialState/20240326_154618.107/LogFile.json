@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_InitialState.script",
+				"identifier": "START",
+				"timestamp": "2024-03-26 15:46:18.117 -0400"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-03-26 15:46:25.199 -0400",
+				"message": "My data is contained in data_OREG-1.xlsx",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-03-26 15:46:31.543 -0400",
+				"message": "There are 6 records in my Excel",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"28.467\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-03-26 15:46:18 -0400\", Successes:\"1\", TestCase:\"OpenEMR_InitialState.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-03-26 15:46:46.597 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:28 OpenEMR_InitialState.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-03-26 15:46:46.691 -0400"
+			}
+	],
+	"createdTimestamp": "2024-03-26 15:46:18.124 -0400"
+}

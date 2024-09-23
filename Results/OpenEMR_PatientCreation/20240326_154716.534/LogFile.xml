@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenEMR_Primary_script" package="OpenEMR.suite" timestamp="2024-03-26 15:47:16.534 -0400"
+ tests="1"  failures="1" errors="1" time="32.175000">
+  <properties>
+   <property name="RunDate" value="2024-03-26 15:47:16.534 -0400"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="OpenEMR_Primary.script" assertions="1" status="error"  time="32.148">
+    <failure type="FAILURE" message="File Not Found: waitfor Error - Could Not Open Image: WindowsRunIcon -- Execution Time 0:00:32 OpenEMR_Primary.script" />
+    <error type="Exception" message="Could Not Open Image: WindowsRunIcon" />
+  </testcase>
+ </testsuite>
+</testsuites>

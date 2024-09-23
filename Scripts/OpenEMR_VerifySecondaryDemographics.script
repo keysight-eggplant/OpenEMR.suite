@@ -1,0 +1,26 @@
+params myCurrentPatient, mySOGI_RowSearchArea, myExternalID_RowSearchArea, myLicenseID_RowSearchArea
+
+//Verify that secondary demographics were entered correctly
+If ImageFound(text:myCurrentPatient.GenderIdentity, waitFor:1,SearchRectangle:mySOGI_RowSearchArea) then
+	LogSuccess "The patient's gender identity was typed correctly."
+Else
+	LogWarning "The patient's gender identity was NOT typed correctly."
+End If
+
+If ImageFound(text:myCurrentPatient.SexualOrientation, waitFor:1,SearchRectangle:mySOGI_RowSearchArea) then
+	LogSuccess "The patient's sexual orientation was typed correctly."
+Else
+	LogWarning "The patient's sexual orientation was NOT typed correctly."
+End If
+
+If ImageFound(text:myCurrentPatient.SSN, waitFor:1,SearchRectangle:myExternalID_RowSearchArea) then
+	LogSuccess "The patient's SSN was typed correctly."
+Else
+	LogWarning "The patient's SSN was NOT typed correctly."
+End If
+
+If ImageFound(text:myCurrentPatient.MaritalStatus, waitFor:1,SearchRectangle:myLicenseID_RowSearchArea) then
+	LogSuccess "The patient's marital status was typed correctly."
+Else
+	LogWarning "The patient's marital status was NOT typed correctly."
+End If

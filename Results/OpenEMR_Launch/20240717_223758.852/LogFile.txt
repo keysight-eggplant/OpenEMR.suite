@@ -1,0 +1,10 @@
+﻿2024-07-17 22:37:58.882 -0400	START		Running OpenEMR_Launch.script
+2024-07-17 22:37:59.179 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:37:59.234 -0400	Log		The default remote work interval is 0.07	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:37:59.241 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:37:59.272 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:37:59.302 -0400	setoption		remoteWorkInterval = 0.07	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:37:59.335 -0400	Log		The current remote work interval is 0.07	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-17 22:38:00.842 -0400	imagefound	(TEXT:"Electronic Health Record")	found at (1038, 510)	1	on_openemr_launch	OpenEMR_Launch.script
+2024-07-17 22:38:00.968 -0400	EndTestCase		(Duration:"2.069", Errors:"0", Exceptions:"0", StartTime:"2024-07-17 22:37:58 -0400", Successes:"1", TestCase:"OpenEMR_Launch.script", Warnings:"0")
+2024-07-17 22:38:01.132 -0400	SUCCESS		Execution Time 0:00:02 OpenEMR_Launch.script

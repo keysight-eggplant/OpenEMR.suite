@@ -1,0 +1,27 @@
+﻿params myCurrentPatient, myNameRowSearchArea, myDOB_SexRowSearchArea
+
+//Verify that primary demographics were entered correctly
+If ImageFound(text:myCurrentPatient.FirstName, waitFor:1,SearchRectangle:myNameRowSearchArea) then
+	LogSuccess "The patient's first name was typed correctly."
+	If ColorAtLocation(FoundImageLocation() + (60,0)) <> "255,255,255" then
+		LogWarning "The field did NOT flip from missing required to normal"
+		Log ColorAtLocation(FoundImageLocation() + (60,0))
+	End If
+Else
+	LogWarning "The patient's last name was NOT typed correctly."
+End If
+
+If ImageFound(text:myCurrentPatient.LastName, waitFor:1,SearchRectangle:myNameRowSearchArea) then
+	LogSuccess "The patient's last name was typed correctly."
+Else
+	LogWarning "The patient's last name was NOT typed correctly."
+End If
+
+If ImageFound(text:myCurrentPatient.DOB, waitFor:1,SearchRectangle:myDOB_SexRowSearchArea,validCharacters:"*") then
+	LogSuccess "The patient's date of birth was typed correctly."
+Else If ImageFound(text:myCurrentPatient.DOB, waitFor:1,SearchRectangle:myDOB_SexRowSearchArea,contrast:yes,contrastcolor:"#ff7f00") then
+	LogWarning "The patient's date of birth was typed correctly but the field did NOT flip from missing required to normal"
+	Log ColorAtLocation(FoundImageLocation())
+Else
+	LogWarning "The patient's date of birth was NOT typed correctly."
+End If

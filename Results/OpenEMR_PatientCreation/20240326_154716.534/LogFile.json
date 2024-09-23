@@ -1,0 +1,111 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_Primary.script",
+				"identifier": "START",
+				"timestamp": "2024-03-26 15:47:16.552 -0400"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-03-26 15:47:21.720 -0400",
+				"message": "My data is contained in data_OREG-1.xlsx",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-03-26 15:47:21.742 -0400",
+				"message": "There are 6 records in my Excel",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:47:35.715 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:47:35.769 -0400",
+				"message": "The default remote work interval is 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:47:35.778 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:47:35.809 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:47:35.817 -0400",
+				"message": "remoteWorkInterval = 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-03-26 15:47:35.853 -0400",
+				"message": "The current remote work interval is 2",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-03-26 15:47:44.147 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "Unable to Find Image (TEXT:\"Electronic Health Record\"). Text not found.",
+				"image": "(TEXT:\"Electronic Health Record\")",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-03-26 15:47:46.729 -0400",
+				"message": "[windowsKey]r",
+				"scriptName": "OpenEMR_Launch.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-03-26 15:47:48.543 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "Could Not Open Image: WindowsRunIcon",
+				"image": "WindowsRunIcon",
+				"handlerLine": 7,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"32.148\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-03-26 15:47:16 -0400\", Successes:\"0\", TestCase:\"OpenEMR_Primary.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-03-26 15:47:48.711 -0400"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "File Not Found: waitfor Error - Could Not Open Image: WindowsRunIcon -- Execution Time 0:00:32 OpenEMR_Primary.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-03-26 15:47:48.894 -0400"
+			}
+	],
+	"createdTimestamp": "2024-03-26 15:47:16.560 -0400"
+}

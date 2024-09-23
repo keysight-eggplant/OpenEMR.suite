@@ -1,0 +1,21 @@
+﻿//Login to OpenEMR
+Click (Text:"Username", caseSensitive:yes, WaitFor:1,SearchRectangle:HandlerGarage.ScreenPart("Lynde"))
+TypeText "jmarkovic",Tab
+TypeEncodedText "<QXV_XXeJXdv!","viper"
+TypeText Tab
+
+
+
+Click text:"Login", waitFor:5,SearchRectangle:HandlerGarage.ScreenPart("Center"), dpi:96
+Wait until ImageFound(imageName:"ChromeRefreshIcon", waitFor:0) is false
+WaitFor 60, "ChromeRefreshIcon"
+WaitFor 5, "CalendarSearchIcon"
+
+
+
+//Dismiss Change Password
+(*If ImageFound(Image:"OpenEMR_ChangePassword_green", WaitFor:5) then
+	Log "You need to change your password"
+	Click imageName:"OpenEMR_TabCloseX", waitFor:1, SearchRectangle:(4,2,686,384)
+End If*)
+

@@ -1,0 +1,375 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_PatientCreation.script",
+				"identifier": "START",
+				"timestamp": "2024-07-17 22:38:09.925 -0400"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-07-17 22:38:10.208 -0400",
+				"message": "NewTower:(null)",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 7,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-07-17 22:38:10.219 -0400",
+				"message": "My data is contained in data_OREG-1.xlsx",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-07-17 22:38:10.253 -0400",
+				"message": "There are 6 records in my Excel",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 14,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:38:13.706 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:38:13.751 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:38:13.772 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:38:13.801 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:38:13.814 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:38:13.850 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-17 22:38:15.254 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "found at (1038, 510)",
+				"image": "(TEXT:\"Electronic Health Record\")",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:39:07.147 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:39:07.193 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:39:07.200 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:39:07.250 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:39:07.268 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:39:07.310 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:39:07.902 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "at (697, 590)",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:39:14.552 -0400",
+				"message": "jmarkovic[tab]",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:39:27.002 -0400",
+				"message": "<Encoded Text>",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 4,
+				"identifier": "typeencodedtext"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:47:35.924 -0400",
+				"message": "[tab]",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:47:35.976 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:47:36.039 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:47:36.054 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:47:36.117 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:47:36.147 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-17 22:47:36.186 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:47:38.246 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "at (959, 754)",
+				"image": "(TEXT:\"Login\")",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:47:38.279 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:47:38.299 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:47:38.470 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "Unable to Find Image ChromeRefreshIcon",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:47:39.969 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 11,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-17 22:47:40.059 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (123, 297)",
+				"image": "CalendarSearchIcon",
+				"handlerLine": 12,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_checkprovidercalendar",
+				"timestamp": "2024-07-17 22:47:40.345 -0400",
+				"scriptName": "OpenEMR_VerifyLoginUserAndProviderSchedule.script",
+				"message": "found at (1887, 341)",
+				"image": "OpenEMR_CloseProviderScheduleX",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "function_returnsearchrectangle",
+				"timestamp": "2024-07-17 22:47:40.499 -0400",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"message": "at [1878,333,1896,351]",
+				"image": "OpenEMR_CloseProviderScheduleX",
+				"handlerLine": 3,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "function_returnsearchrectangle",
+				"timestamp": "2024-07-17 22:47:40.511 -0400",
+				"message": "The StartLeftSearch is 978",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_returnsearchrectangle",
+				"timestamp": "2024-07-17 22:47:40.521 -0400",
+				"message": "The x distance is 250",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 9,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_returnsearchrectangle",
+				"timestamp": "2024-07-17 22:47:40.526 -0400",
+				"message": "The endrightsearch is 1228",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 10,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_returnsearchrectangle",
+				"timestamp": "2024-07-17 22:47:40.532 -0400",
+				"message": "The search rectangle is [[978,333],[1228,353]]",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_checkprovidercalendar",
+				"timestamp": "2024-07-17 22:47:40.643 -0400",
+				"message": "(978,333,1228,353)",
+				"scriptName": "OpenEMR_VerifyLoginUserAndProviderSchedule.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_checkprovidercalendar",
+				"timestamp": "2024-07-17 22:47:40.652 -0400",
+				"message": "The correct provider schedule is displayed",
+				"scriptName": "OpenEMR_VerifyLoginUserAndProviderSchedule.script",
+				"handlerLine": 8,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_checkloginusername",
+				"timestamp": "2024-07-17 22:47:40.905 -0400",
+				"scriptName": "OpenEMR_VerifyLoginUserAndProviderSchedule.script",
+				"message": "at [1855,132,1895,172]",
+				"image": "OpenEMR_UserIcon",
+				"handlerLine": 3,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_checkloginusername",
+				"timestamp": "2024-07-17 22:47:41.023 -0400",
+				"message": "at (1878, 152)",
+				"scriptName": "OpenEMR_VerifyLoginUserAndProviderSchedule.script",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkloginusername",
+				"timestamp": "2024-07-17 22:47:41.134 -0400",
+				"message": "[escape]",
+				"scriptName": "OpenEMR_VerifyLoginUserAndProviderSchedule.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"688.961\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-07-17 22:38:09 -0400\", Successes:\"1\", TestCase:\"OpenEMR_PatientCreation.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-17 22:49:38.898 -0400"
+			},
+		{
+				"message": "Execution Time 0:11:28 OpenEMR_PatientCreation.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-07-17 22:49:38.922 -0400"
+			}
+	],
+	"createdTimestamp": "2024-07-17 22:38:09.934 -0400"
+}

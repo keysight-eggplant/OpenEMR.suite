@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="OpenEMR_Login">
+ <run>
+  <RunDate>2024-03-26 15:49:28.560 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>20.711000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240326_154928.560/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: MyRefreshIcon</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-03-26 15:52:16.719 -0400</RunDate>
+  <Status>Success</Status>
+  <Duration>12.626000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240326_155216.719/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-18 11:20:27.542 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>31.590000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240718_112027.542/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

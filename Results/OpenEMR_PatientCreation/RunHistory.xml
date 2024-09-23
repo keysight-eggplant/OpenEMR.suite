@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="OpenEMR_Primary">
+ <run>
+  <RunDate>2024-03-26 15:44:27.133 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>6.945000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240326_154427.133/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Workbook Error -- Error loading workbook C:/ScriptRepositories/OpenEMR.suite/Resources/data_OREG-1.xlsx: No such file or directory.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-03-26 15:47:16.534 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>32.175000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240326_154716.534/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: WindowsRunIcon</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-11 12:32:28.167 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>155.029000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240711_123228.167/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;firstname&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-11 12:46:30.349 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>1525.760000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240711_124630.349/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: Win10_StartButton</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 13:08:45.907 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>5.878000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240717_130845.907/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:New Tower on port:0
+Invalid hostname or IP address: No such host is known. 
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 13:09:17.705 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>249.309000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>3</Successes>
+  <LogFile>20240717_130917.705/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 13:35:17.091 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>212.188000</Duration>
+  <Errors>1</Errors>
+  <Warnings>4</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20240717_133517.091/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 13:39:22.532 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>163.440000</Duration>
+  <Errors>1</Errors>
+  <Warnings>5</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>3</Successes>
+  <LogFile>20240717_133922.532/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 13:42:16.525 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>108.566000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20240717_134216.525/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 13:45:28.499 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>83.516000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20240717_134528.499/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 22:21:36.910 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>148.412000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240717_222136.910/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 22:38:09.912 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>688.984000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240717_223809.912/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-17 22:49:41.869 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>887.515000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240717_224941.869/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-18 09:39:46.395 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>66.583000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240718_093946.395/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-18 09:41:35.159 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>74.529000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240718_094135.159/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: XAMPP_Icon_sm</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-18 09:46:51.724 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>120.158000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20240718_094651.724/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-18 09:56:39.388 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>28.438000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240718_095639.388/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-18 10:05:32.802 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>281.344000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20240718_100532.802/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-07-18 11:23:55.926 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>187.192000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20240718_112355.926/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

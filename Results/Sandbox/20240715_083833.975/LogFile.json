@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Sandbox.script",
+				"identifier": "START",
+				"timestamp": "2024-07-15 08:38:33.988 -0400"
+			},
+		{
+				"message": "(Duration:\"0.237\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-07-15 08:38:33 -0400\", Successes:\"0\", TestCase:\"Sandbox.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-15 08:38:34.238 -0400"
+			},
+		{
+				"message": "STUnknownMessage: ERROR: No Such Function: 'nextkeydelay' -- Execution Time 0:00:00 Sandbox.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-07-15 08:38:34.349 -0400"
+			}
+	],
+	"createdTimestamp": "2024-07-15 08:38:33.996 -0400"
+}

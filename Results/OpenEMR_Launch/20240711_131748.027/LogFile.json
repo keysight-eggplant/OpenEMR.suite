@@ -1,0 +1,111 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_Launch.script",
+				"identifier": "START",
+				"timestamp": "2024-07-11 13:17:48.074 -0400"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-11 13:17:49.245 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-11 13:17:49.550 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-11 13:17:49.581 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-11 13:17:49.725 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-11 13:17:49.748 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-11 13:17:49.927 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-11 13:18:32.291 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "Unable to Find Image (TEXT:\"Electronic Health Record\"). Text not found.",
+				"image": "(TEXT:\"Electronic Health Record\")",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-11 13:18:33.098 -0400",
+				"message": "[windowsKey]r",
+				"scriptName": "OpenEMR_Launch.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-11 13:18:33.565 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "found at (49, 891)",
+				"image": "WindowsRunIcon",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-11 13:18:36.160 -0400",
+				"message": "http://localhost/openemr/interface/login/login.php?site=default[return]",
+				"scriptName": "OpenEMR_Launch.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-11 13:18:58.420 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "found at (1038, 510)",
+				"image": "(TEXT:\"Electronic Health Record\")",
+				"handlerLine": 11,
+				"identifier": "waitfor"
+			},
+		{
+				"message": "(Duration:\"70.649\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-07-11 13:17:48 -0400\", Successes:\"1\", TestCase:\"OpenEMR_Launch.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-11 13:18:58.784 -0400"
+			},
+		{
+				"message": "Execution Time 0:01:10 OpenEMR_Launch.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-07-11 13:18:59.545 -0400"
+			}
+	],
+	"createdTimestamp": "2024-07-11 13:17:48.095 -0400"
+}

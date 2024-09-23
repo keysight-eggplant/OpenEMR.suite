@@ -1,0 +1,3183 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_PatientCreation.script",
+				"identifier": "START",
+				"timestamp": "2024-07-18 11:23:55.951 -0400"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-07-18 11:23:56.336 -0400",
+				"message": "NewTower:(null)",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 7,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-07-18 11:23:56.351 -0400",
+				"message": "My data is contained in data_OREG-1.xlsx",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_initialstate",
+				"timestamp": "2024-07-18 11:23:56.457 -0400",
+				"message": "There are 6 records in my Excel",
+				"scriptName": "OpenEMR_InitialState.script",
+				"handlerLine": 14,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:24:39.374 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:24:39.425 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:24:39.440 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:24:39.507 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:24:39.526 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:24:39.580 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:24:47.518 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "Unable to Find Image (TEXT:\"Electronic Health Record\"). Text not found.",
+				"image": "(TEXT:\"Electronic Health Record\")",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:24:47.630 -0400",
+				"message": "[windowsKey]r",
+				"scriptName": "OpenEMR_Launch.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:24:48.044 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "found at (49, 891)",
+				"image": "WindowsRunIcon",
+				"handlerLine": 8,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:24:50.031 -0400",
+				"message": "http://localhost/openemr/interface/login/login.php?site=default[return]",
+				"scriptName": "OpenEMR_Launch.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:25:23.646 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "Unable To Find Any Image On Screen \"(TEXT:\"Electronic Health Record\")\" within 10.00 seconds. Text not found.",
+				"image": "(TEXT:\"Electronic Health Record\")",
+				"handlerLine": 13,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:25:24.120 -0400",
+				"message": "[optionKey][F4]",
+				"scriptName": "OpenEMR_Launch.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:24.635 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (26, 1057)",
+				"image": "Win10_StartButton",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:26.406 -0400",
+				"message": "xampp control panel[return]",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:27.124 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "found at (23, 13)",
+				"image": "XAMPP_Icon_sm",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:27.181 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:27.268 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:27.272 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:27.367 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:27.381 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:27.467 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:28.932 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at [84,105,122,115]",
+				"image": "(TEXT:\"Apache\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:28.976 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:29.077 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:29.084 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:29.153 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:29.171 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:29.241 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:30.337 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at [86,133,120,143]",
+				"image": "(TEXT:\"MySQL\")",
+				"handlerLine": 7,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:30.379 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:30.465 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:30.476 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:30.588 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:30.640 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:30.733 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:31.868 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at [86,220,120,228]",
+				"image": "(TEXT:\"Tomcat\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:32.062 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (346, 111)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:32.325 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (346, 139)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:32.574 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "at (346, 224)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 11,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:32.667 -0400",
+				"message": "at (800, 600)",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 12,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:32.779 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "found at (345, 112)",
+				"image": "(TEXT:\"Stop\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:32.796 -0400",
+				"message": "The Apache service has started.",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 15,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:32.908 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "found at (345, 140)",
+				"image": "(TEXT:\"Stop\")",
+				"handlerLine": 21,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:32.931 -0400",
+				"message": "The MySQL service has started.",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 22,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:34.066 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "Unable to Find Image (TEXT:\"Stop\"). Text not found.",
+				"image": "(TEXT:\"Stop\")",
+				"handlerLine": 28,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:34.083 -0400",
+				"message": "The Tomcat service has NOT started",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 31,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-18 11:25:34.190 -0400",
+				"message": "[optionKey][F4]",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:34.557 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:34.730 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:34.755 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:34.927 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:35.056 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:25:35.175 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:25:42.621 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "Unable to Find Image (TEXT:\"Electronic Health Record\"). Text not found.",
+				"image": "(TEXT:\"Electronic Health Record\")",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:25:42.715 -0400",
+				"message": "[windowsKey]r",
+				"scriptName": "OpenEMR_Launch.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:25:43.146 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "found at (49, 891)",
+				"image": "WindowsRunIcon",
+				"handlerLine": 8,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:25:45.117 -0400",
+				"message": "http://localhost/openemr/interface/login/login.php?site=default[return]",
+				"scriptName": "OpenEMR_Launch.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_launch",
+				"timestamp": "2024-07-18 11:25:51.299 -0400",
+				"scriptName": "OpenEMR_Launch.script",
+				"message": "found at (1038, 510)",
+				"image": "(TEXT:\"Electronic Health Record\")",
+				"handlerLine": 13,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:36.756 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:36.856 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:36.880 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:36.976 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:37.019 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:37.200 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:37.831 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "at (697, 590)",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:40.218 -0400",
+				"message": "jmarkovic[tab]",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:41.909 -0400",
+				"message": "<Encoded Text>",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 4,
+				"identifier": "typeencodedtext"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:43.372 -0400",
+				"message": "[tab]",
+				"scriptName": "OpenEMR_Login.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:44.830 -0400",
+				"message": "screenpart",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:44.964 -0400",
+				"message": "The default remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:44.972 -0400",
+				"message": "remoteWorkInterval = 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 7,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:45.052 -0400",
+				"message": "The current remote work interval is 0.01",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:45.084 -0400",
+				"message": "remoteWorkInterval = 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 198,
+				"identifier": "setoption"
+			},
+		{
+				"handlerName": "function_screenpart",
+				"timestamp": "2024-07-18 11:26:45.221 -0400",
+				"message": "The current remote work interval is 0.07",
+				"scriptName": "C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script",
+				"handlerLine": 200,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:46.540 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "at (959, 754)",
+				"image": "(TEXT:\"Login\")",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.141 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.201 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.247 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.288 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.319 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.357 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.392 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.443 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.495 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.524 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.556 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.611 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.644 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.694 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.750 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.795 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.830 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.870 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.905 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.950 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:49.985 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.030 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.071 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.136 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.162 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.199 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.230 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.277 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.320 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.360 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.415 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.466 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.508 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.563 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.609 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.666 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.709 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.756 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.788 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.821 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.855 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.899 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.931 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:50.969 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.011 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.054 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.089 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.141 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.196 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.223 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.281 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.318 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.366 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.399 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.457 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.500 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.533 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.571 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.616 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.654 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.694 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.732 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.771 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.817 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.855 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.890 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.913 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:51.960 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.016 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.088 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.121 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.164 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.190 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.226 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.269 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.310 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.367 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.426 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.468 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.522 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.576 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.601 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.652 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.693 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.755 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.790 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.834 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.868 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.912 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.948 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:52.992 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.026 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.071 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.110 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.177 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.230 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.276 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.324 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.371 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.399 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.454 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.500 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.554 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.613 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.654 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.709 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.742 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.791 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.845 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.888 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.925 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:53.965 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.020 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.059 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.102 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.154 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.194 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.253 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.293 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.351 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.409 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.444 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.501 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.549 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.589 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.640 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.693 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.749 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.790 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.835 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.875 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.928 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:54.959 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.009 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.065 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.111 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.150 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.184 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.228 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.259 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.324 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.375 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.420 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.457 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.490 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.552 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.610 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.648 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.708 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.764 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.837 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.892 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.950 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:55.992 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.039 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.108 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.166 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.212 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.253 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.302 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.353 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.406 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.458 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.518 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.550 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.616 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.685 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.748 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.804 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.864 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.913 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:56.957 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.014 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.069 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.114 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.163 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.210 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.263 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.315 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.364 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.408 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.456 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.514 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.534 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.569 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.616 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.671 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.711 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.762 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.786 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.841 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.865 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.900 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.949 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:57.995 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.048 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.088 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.125 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.187 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.235 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.274 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.305 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.352 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.393 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.433 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.480 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.511 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.564 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.585 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.618 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.655 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.703 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.759 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.812 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.834 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.875 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.914 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:58.974 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.015 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.055 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.102 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.150 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.204 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.227 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.259 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.304 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.336 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.382 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.414 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.460 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.495 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.534 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.584 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.631 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.668 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.707 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.748 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.780 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.823 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.869 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.922 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.945 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:26:59.977 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.041 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.098 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.141 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.189 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.228 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.291 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.324 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.364 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.401 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.447 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.481 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.511 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.538 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.589 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.622 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.679 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.708 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.746 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.789 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.849 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.887 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.930 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:00.972 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.015 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.041 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.077 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.133 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.191 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.238 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.273 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.306 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.352 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.400 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.431 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.478 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.509 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_openemr_login",
+				"timestamp": "2024-07-18 11:27:01.545 -0400",
+				"scriptName": "OpenEMR_Login.script",
+				"message": "found at (93, 61)",
+				"image": "ChromeRefreshIcon",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"187.159\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-07-18 11:23:55 -0400\", Successes:\"2\", TestCase:\"OpenEMR_PatientCreation.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-18 11:27:03.122 -0400"
+			},
+		{
+				"message": "Execution Time 0:03:07 OpenEMR_PatientCreation.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-07-18 11:27:03.191 -0400"
+			}
+	],
+	"createdTimestamp": "2024-07-18 11:23:55.958 -0400"
+}

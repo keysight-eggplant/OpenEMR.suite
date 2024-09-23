@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1711482519.4349999,
+	"lastfoundlocation": [
+		26,
+		878,
+		37,
+		25
+	],
+	"originalcapturelocation": [
+		26,
+		698,
+		37,
+		25
+	],
+	"createddate": 1711482519.4349999,
+	"lastfounddate": 1721316343.1399999,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[23,13]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "WindowsRunIcon.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"capturerect": [
+					26,
+					698,
+					37,
+					25
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.4.62"
+			}
+	],
+	"name": "WindowsRunIcon"
+}

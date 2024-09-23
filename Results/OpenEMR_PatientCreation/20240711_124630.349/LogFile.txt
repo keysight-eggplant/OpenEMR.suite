@@ -1,0 +1,18 @@
+﻿2024-07-11 12:46:30.419 -0400	START		Running OpenEMR_PatientCreation.script
+2024-07-11 13:08:14.340 -0400	Log		My data is contained in data_OREG-1.xlsx	8	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-07-11 13:08:14.495 -0400	Log		There are 6 records in my Excel	11	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-07-11 13:09:20.971 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:09:21.147 -0400	Log		The default remote work interval is 0.07	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:09:21.187 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:09:21.345 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:09:21.400 -0400	setoption		remoteWorkInterval = 0.07	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:09:21.491 -0400	Log		The current remote work interval is 0.07	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-11 13:09:40.870 -0400	imagefound	(TEXT:"Electronic Health Record")	Unable to Find Image (TEXT:"Electronic Health Record"). Text not found.	1	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:09:55.141 -0400	typetext		[windowsKey]r	6	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:10:01.550 -0400	waitfor	WindowsRunIcon	found at (49, 891)	7	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:10:17.296 -0400	typetext		http://localhost/openemr/interface/login/login.php?site=default[return]	8	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:11:54.210 -0400	Exception	(TEXT:"Electronic Health Record")	Unable To Find Any Image On Screen "(TEXT:"Electronic Health Record")" within 10.00 seconds. Text not found.	11	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:11:54.725 -0400	typetext		[optionKey][F4]	13	on_openemr_launch	OpenEMR_Launch.script
+2024-07-11 13:11:55.092 -0400	Exception	Win10_StartButton	Could Not Open Image: Win10_StartButton	1	on_openemr_launchxampp	OpenEMR_LaunchXAMPP.script
+2024-07-11 13:11:56.129 -0400	EndTestCase		(Duration:"1525.667", Errors:"1", Exceptions:"2", StartTime:"2024-07-11 12:46:30 -0400", Successes:"0", TestCase:"OpenEMR_PatientCreation.script", Warnings:"0")
+2024-07-11 13:11:57.174 -0400	FAILURE	Screen_Error.png	File Not Found: click Error - Could Not Open Image: Win10_StartButton -- Execution Time 0:25:25 OpenEMR_PatientCreation.script

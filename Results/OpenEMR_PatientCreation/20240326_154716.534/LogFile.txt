@@ -1,0 +1,14 @@
+﻿2024-03-26 15:47:16.552 -0400	START		Running OpenEMR_Primary.script
+2024-03-26 15:47:21.720 -0400	Log		My data is contained in data_OREG-1.xlsx	8	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-03-26 15:47:21.742 -0400	Log		There are 6 records in my Excel	11	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-03-26 15:47:35.715 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:47:35.769 -0400	Log		The default remote work interval is 2	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:47:35.778 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:47:35.809 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:47:35.817 -0400	setoption		remoteWorkInterval = 2	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:47:35.853 -0400	Log		The current remote work interval is 2	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-03-26 15:47:44.147 -0400	imagefound	(TEXT:"Electronic Health Record")	Unable to Find Image (TEXT:"Electronic Health Record"). Text not found.	1	on_openemr_launch	OpenEMR_Launch.script
+2024-03-26 15:47:46.729 -0400	typetext		[windowsKey]r	6	on_openemr_launch	OpenEMR_Launch.script
+2024-03-26 15:47:48.543 -0400	Exception	WindowsRunIcon	Could Not Open Image: WindowsRunIcon	7	on_openemr_launch	OpenEMR_Launch.script
+2024-03-26 15:47:48.711 -0400	EndTestCase		(Duration:"32.148", Errors:"1", Exceptions:"1", StartTime:"2024-03-26 15:47:16 -0400", Successes:"0", TestCase:"OpenEMR_Primary.script", Warnings:"0")
+2024-03-26 15:47:48.894 -0400	FAILURE	Screen_Error.png	File Not Found: waitfor Error - Could Not Open Image: WindowsRunIcon -- Execution Time 0:00:32 OpenEMR_Primary.script

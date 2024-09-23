@@ -1,0 +1,21 @@
+﻿If ImageFound(text:"Electronic Health Record", waitFor:1, SearchRectange:HandlerGarage.ScreenPart("Center")) then
+	set global OpenEMR.Launched to True
+	exit handler
+End If
+
+//Opens the Windows Run window and enters the URL of the EMR system
+TypeText windowsKey,"r"
+WaitFor 30, "WindowsRunIcon"
+TypeText "http://localhost/openemr/interface/login/login.php?site=default",Return
+
+
+Try
+	WaitFor 10, text:"Electronic Health Record" -- validates that OpenEMR has opened
+Catch theException
+	TypeText OptionKey,F4
+	Run OpenEMR_LaunchXAMPP
+	Run OpenEMR_Launch
+End try
+
+
+

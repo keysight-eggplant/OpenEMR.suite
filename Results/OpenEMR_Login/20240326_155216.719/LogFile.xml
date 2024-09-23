@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenEMR_Login_script" package="OpenEMR.suite" timestamp="2024-03-26 15:52:16.719 -0400"
+ tests="1"  failures="0" errors="0" time="12.626000">
+  <properties>
+   <property name="RunDate" value="2024-03-26 15:52:16.719 -0400"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="OpenEMR_Login.script" assertions="1" status="success"  time="12.612">
+  </testcase>
+ </testsuite>
+</testsuites>

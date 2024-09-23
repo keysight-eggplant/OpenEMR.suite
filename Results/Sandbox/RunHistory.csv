@@ -1,0 +1,5 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-07-15 08:38:33.975 -0400,"Failure",0:00:00,1,0,0,"20240715_083833.975/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'nextkeydelay'",0
+2024-07-15 08:38:41.484 -0400,"Success",0:00:00,0,0,0,"20240715_083841.484/LogFile.txt","","",1
+2024-07-15 08:38:48.242 -0400,"Success",0:00:00,0,0,0,"20240715_083848.242/LogFile.txt","","",1
+2024-07-15 08:39:36.595 -0400,"Success",0:00:00,0,0,0,"20240715_083936.595/LogFile.txt","","",1

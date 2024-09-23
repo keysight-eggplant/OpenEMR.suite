@@ -1,0 +1,5 @@
+﻿2024-03-26 15:46:18.117 -0400	START		Running OpenEMR_InitialState.script
+2024-03-26 15:46:25.199 -0400	Log		My data is contained in data_OREG-1.xlsx	8	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-03-26 15:46:31.543 -0400	Log		There are 6 records in my Excel	11	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-03-26 15:46:46.597 -0400	EndTestCase		(Duration:"28.467", Errors:"0", Exceptions:"0", StartTime:"2024-03-26 15:46:18 -0400", Successes:"1", TestCase:"OpenEMR_InitialState.script", Warnings:"0")
+2024-03-26 15:46:46.691 -0400	SUCCESS		Execution Time 0:00:28 OpenEMR_InitialState.script

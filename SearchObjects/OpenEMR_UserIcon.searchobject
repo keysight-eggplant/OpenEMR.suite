@@ -1,0 +1,73 @@
+{
+	"lastmodifieddate": 1721237805.9590001,
+	"lastfoundlocation": [
+		1866,
+		126,
+		29,
+		29
+	],
+	"originalcapturelocation": [
+		1546,
+		126,
+		29,
+		29
+	],
+	"createddate": 1711482958.5970001,
+	"lastfounddate": 1721271037.664,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[14,14]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "OpenEMR_UserIcon/OpenEMR_UserIcon.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"capturerect": [
+					1546,
+					126,
+					29,
+					29
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.4.62"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[23,20]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "OpenEMR_UserIcon/OpenEMR_UserIcon_new.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"connectionserverid": "192.168.4.62",
+				"capturerect": [
+					1855,
+					132,
+					40,
+					40
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "o"
+			}
+	],
+	"name": "OpenEMR_UserIcon"
+}

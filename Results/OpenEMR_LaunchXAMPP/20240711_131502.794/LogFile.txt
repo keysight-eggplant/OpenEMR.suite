@@ -1,0 +1,6 @@
+﻿2024-07-11 13:15:02.847 -0400	START		Running OpenEMR_LaunchXAMPP.script
+2024-07-11 13:15:03.872 -0400	click	Win10_StartButton	at (26, 1057)	1	on_openemr_launchxampp	OpenEMR_LaunchXAMPP.script
+2024-07-11 13:15:06.128 -0400	typetext		xampp control panel[return]	3	on_openemr_launchxampp	OpenEMR_LaunchXAMPP.script
+2024-07-11 13:15:06.218 -0400	Exception	XAMPP_Icon_sm	Could Not Open Image: XAMPP_Icon_sm	4	on_openemr_launchxampp	OpenEMR_LaunchXAMPP.script
+2024-07-11 13:15:06.420 -0400	EndTestCase		(Duration:"3.533", Errors:"1", Exceptions:"1", StartTime:"2024-07-11 13:15:02 -0400", Successes:"0", TestCase:"OpenEMR_LaunchXAMPP.script", Warnings:"0")
+2024-07-11 13:15:07.390 -0400	FAILURE	Screen_Error.png	File Not Found: waitfor Error - Could Not Open Image: XAMPP_Icon_sm -- Execution Time 0:00:03 OpenEMR_LaunchXAMPP.script

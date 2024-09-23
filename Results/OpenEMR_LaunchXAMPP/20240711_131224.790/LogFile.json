@@ -1,0 +1,30 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenEMR_LaunchXAMPP.script",
+				"identifier": "START",
+				"timestamp": "2024-07-11 13:12:24.860 -0400"
+			},
+		{
+				"handlerName": "on_openemr_launchxampp",
+				"timestamp": "2024-07-11 13:12:26.120 -0400",
+				"scriptName": "OpenEMR_LaunchXAMPP.script",
+				"message": "Could Not Open Image: Win10_StartButton",
+				"image": "Win10_StartButton",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"2.02\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-07-11 13:12:24 -0400\", Successes:\"0\", TestCase:\"OpenEMR_LaunchXAMPP.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-11 13:12:26.908 -0400"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "File Not Found: click Error - Could Not Open Image: Win10_StartButton -- Execution Time 0:00:02 OpenEMR_LaunchXAMPP.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-07-11 13:12:27.575 -0400"
+			}
+	],
+	"createdTimestamp": "2024-07-11 13:12:24.884 -0400"
+}

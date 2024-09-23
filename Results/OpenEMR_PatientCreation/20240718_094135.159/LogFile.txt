@@ -1,0 +1,21 @@
+﻿2024-07-18 09:41:35.196 -0400	START		Running OpenEMR_PatientCreation.script
+2024-07-18 09:41:35.655 -0400	Connect		NewTower:(null)	7	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-07-18 09:41:35.671 -0400	Log		My data is contained in data_OREG-1.xlsx	11	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-07-18 09:41:35.720 -0400	Log		There are 6 records in my Excel	14	on_openemr_initialstate	OpenEMR_InitialState.script
+2024-07-18 09:41:38.508 -0400	Log		screenpart	2	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-18 09:41:38.603 -0400	Log		The default remote work interval is 0.07	6	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-18 09:41:38.611 -0400	setoption		remoteWorkInterval = 0.01	7	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-18 09:41:38.694 -0400	Log		The current remote work interval is 0.01	8	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-18 09:41:38.746 -0400	setoption		remoteWorkInterval = 0.07	198	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-18 09:41:38.814 -0400	Log		The current remote work interval is 0.07	200	function_screenpart	C:/ScriptRepositories/HelperSuite.suite/Scripts/HandlerGarage.script
+2024-07-18 09:41:51.215 -0400	imagefound	(TEXT:"Electronic Health Record")	Unable to Find Image (TEXT:"Electronic Health Record"). Text not found.	1	on_openemr_launch	OpenEMR_Launch.script
+2024-07-18 09:41:51.470 -0400	typetext		[windowsKey]r	7	on_openemr_launch	OpenEMR_Launch.script
+2024-07-18 09:41:51.877 -0400	waitfor	WindowsRunIcon	found at (49, 891)	8	on_openemr_launch	OpenEMR_Launch.script
+2024-07-18 09:41:53.989 -0400	typetext		http://localhost/openemr/interface/login/login.php?site=default[return]	9	on_openemr_launch	OpenEMR_Launch.script
+2024-07-18 09:42:45.540 -0400	Exception	(TEXT:"Electronic Health Record")	Unable To Find Any Image On Screen "(TEXT:"Electronic Health Record")" within 10.00 seconds. Text not found.	13	on_openemr_launch	OpenEMR_Launch.script
+2024-07-18 09:42:45.985 -0400	typetext		[optionKey][F4]	15	on_openemr_launch	OpenEMR_Launch.script
+2024-07-18 09:42:46.737 -0400	click	Win10_StartButton	at (26, 1057)	1	on_openemr_launchxampp	OpenEMR_LaunchXAMPP.script
+2024-07-18 09:42:49.311 -0400	typetext		xampp control panel[return]	3	on_openemr_launchxampp	OpenEMR_LaunchXAMPP.script
+2024-07-18 09:42:49.410 -0400	Exception	XAMPP_Icon_sm	Could Not Open Image: XAMPP_Icon_sm	4	on_openemr_launchxampp	OpenEMR_LaunchXAMPP.script
+2024-07-18 09:42:49.694 -0400	EndTestCase		(Duration:"74.471", Errors:"1", Exceptions:"2", StartTime:"2024-07-18 09:41:35 -0400", Successes:"0", TestCase:"OpenEMR_PatientCreation.script", Warnings:"0")
+2024-07-18 09:42:50.112 -0400	FAILURE	Screen_Error.png	File Not Found: waitfor Error - Could Not Open Image: XAMPP_Icon_sm -- Execution Time 0:01:14 OpenEMR_PatientCreation.script

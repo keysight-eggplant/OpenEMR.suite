@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1720718184.3109999,
+	"lastfoundlocation": [
+		14,
+		36,
+		32,
+		29
+	],
+	"originalcapturelocation": [
+		14,
+		36,
+		32,
+		29
+	],
+	"createddate": 1720718184.3109999,
+	"lastfounddate": 1720718186.467,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,9]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "image0001.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"capturerect": [
+					14,
+					36,
+					32,
+					29
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.4.62"
+			}
+	],
+	"name": "image0001"
+}
