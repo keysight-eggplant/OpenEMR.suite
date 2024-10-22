@@ -1,5 +1,5 @@
 {
-	"lastmodifieddate": 1720718099.2610002,
+	"lastmodifieddate": 1727268414.54,
 	"lastfoundlocation": [
 		15,
 		1051,
@@ -13,7 +13,7 @@
 		18
 	],
 	"createddate": 1720718099.2610002,
-	"lastfounddate": 1721316324.2719998,
+	"lastfounddate": 1729595919.115,
 	"testlocationdata": [
 		{
 				"connectionportnum": 3389,
@@ -29,7 +29,33 @@
 				"sutinfo": {
 					"type": "Unknown RDP"
 				},
-				"name": "Win10_StartButton.png",
+				"name": "Win10_StartButton/Win10_StartButton.png",
+				"connectionname": "NewTower",
+				"type": 1,
+				"capturerect": [
+					15,
+					1051,
+					18,
+					18
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.4.62"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[11,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Win10_StartButton/Win10_StartButton_new.png",
 				"connectionname": "NewTower",
 				"type": 1,
 				"capturerect": [

@@ -2,10 +2,10 @@
 <statistics>
  <script name="OpenEMR_PatientCreation">
   <LastStatus>Failure</LastStatus>
-  <NumberOfRuns>6</NumberOfRuns>
-  <NumberOfFails>6</NumberOfFails>
+  <NumberOfRuns>7</NumberOfRuns>
+  <NumberOfFails>7</NumberOfFails>
   <FirstRun>2024-03-26 15:44:27 -0400</FirstRun>
-  <LastRun>2024-07-18 09:41:35 -0400</LastRun>
+  <LastRun>2024-10-22 07:24:06 -0400</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
  </script>
  <script name="OpenEMR_Login">

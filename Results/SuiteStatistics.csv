@@ -1,5 +1,5 @@
 ﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
-OpenEMR_PatientCreation,Failure,6,6,2024-03-26 15:44:27 -0400,2024-07-18 09:41:35 -0400,0:00:00
+OpenEMR_PatientCreation,Failure,7,7,2024-03-26 15:44:27 -0400,2024-10-22 07:24:06 -0400,0:00:00
 OpenEMR_Login,Success,2,1,2024-03-26 15:49:28 -0400,2024-03-26 15:52:16 -0400,0:00:12
 Sandbox,Success,4,1,2024-07-15 08:38:33 -0400,2024-07-15 08:39:36 -0400,0:00:00
 OpenEMR_LaunchXAMPP,Success,3,2,2024-07-11 13:12:24 -0400,2024-07-18 09:45:13 -0400,0:00:12

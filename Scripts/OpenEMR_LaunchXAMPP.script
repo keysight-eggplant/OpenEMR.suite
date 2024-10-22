@@ -1,4 +1,4 @@
-﻿Click "Win10_StartButton"
+﻿Click image:"Win10_StartButton",hotspot:(75,15)
 Wait 1
 TypeText "xampp control panel",Return
 WaitFor 10.0, "XAMPP_Icon_sm"

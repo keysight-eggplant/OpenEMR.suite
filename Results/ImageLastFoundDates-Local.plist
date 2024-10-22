@@ -1,17 +1,18 @@
 {
-    "CalendarSearchIcon/CalendarSearchIcon_blue.png" = "2024-07-18 15:22 +0000";
+    "CalendarSearchIcon/CalendarSearchIcon_blue.png" = "2024-10-22 11:31 +0000";
     "CalendarSearchIcon/CalendarSearchIcon_green.png" = "2024-07-18 02:47 +0000";
     "CalendarSearchIcon_blue/CalendarSearchIcon_green.png" = "2024-07-17 17:19 +0000";
-    "ChromeRefreshIcon.png" = "2024-07-18 15:27 +0000";
+    "ChromeRefreshIcon.png" = "2024-10-22 11:31 +0000";
     "Login.png" = "2024-07-17 17:09 +0000";
-    "OpenEMR_CloseProviderScheduleX/OpenEMR_CloseProviderScheduleX_blue.png" = "2024-07-18 02:50 +0000";
+    "OpenEMR_CloseProviderScheduleX/OpenEMR_CloseProviderScheduleX_blue.png" = "2024-10-22 11:31 +0000";
     "OpenEMR_CloseProviderScheduleX/OpenEMR_CloseProviderScheduleX_green.png" = "2024-07-18 02:47 +0000";
-    "OpenEMR_UserIcon/OpenEMR_UserIcon.png" = "2024-07-18 02:50 +0000";
+    "OpenEMR_UserIcon/OpenEMR_UserIcon.png" = "2024-10-22 11:31 +0000";
     "OpenEMR_UserIcon/OpenEMR_UserIcon_new.png" = "2024-07-18 02:47 +0000";
-    "OpenEMR_Warning.png" = "2024-07-11 16:35 +0000";
-    "Win10_StartButton.png" = "2024-07-18 15:25 +0000";
-    "WindowsRunIcon.png" = "2024-07-18 15:25 +0000";
-    "XAMPP_Icon_sm.png" = "2024-07-18 15:25 +0000";
+    "OpenEMR_Warning.png" = "2024-10-22 11:31 +0000";
+    "Win10_StartButton/Win10_StartButton.png" = "2024-10-22 11:18 +0000";
+    "Win10_StartButton/Win10_StartButton_new.png" = "2024-10-22 10:52 +0000";
+    "WindowsRunIcon.png" = "2024-10-22 11:31 +0000";
+    "XAMPP_Icon_sm.png" = "2024-10-22 11:18 +0000";
     "image0001.png" = "2024-07-11 17:16 +0000";
     "openEMR.png" = "2024-07-17 17:09 +0000";
 }

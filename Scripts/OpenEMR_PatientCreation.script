@@ -2,6 +2,7 @@
 global myConnectionString
 global myRecordCount
 global myCurrentRecord
+global myCurrentPatient
 
 OpenEMR_InitialState -- establishes connection to SUT and to Excel
 
@@ -18,11 +19,14 @@ OpenEMR_VerifyLoginUserAndProviderSchedule.CheckLoginUserName "Jerry Markovic" -
 Click text:"Patient", waitFor:1,SearchRectangle:HandlerGarage.ScreenPart("HyperspacePatientHeader")
 Set mySearchArea to (FoundImageLocation(),FoundImageLocation()) + ((-25,10),(100,100))
 Click text:"Add Patient", waitFor:1,SearchRectangle:mySearchArea
-(*set myCurrentPatient to the record of myConnectionString where "_pk_" = (1000 + myCurrentRecord)*)
+set myCurrentPatient to the record of myConnectionString where "_pk_" = (1000 + myCurrentRecord)
 
 
 //Set search areas for OpenEMR "Who" section
-Wait 1
+WaitFor 60, text:"Search or Add Patient",SearchRectangle:HandlerGarage.ScreenPart("TopLeftQuadrant")
+
+WaitFor 60, "ChromeRefreshIcon"
+
 
 Set myDemographicsRowHeadersSearchArea to ImageRectangle(text:"Who", waitFor:5,SearchRectangle:HandlerGarage.ScreenPart("HorizontalMiddle")) +(-2,40,170,400)
 Set myNameRowSearchArea to ImageRectangle(text:"Name", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea) + (250,-10,900,16)
