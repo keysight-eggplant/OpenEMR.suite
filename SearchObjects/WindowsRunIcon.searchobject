@@ -1,10 +1,10 @@
 {
-	"lastmodifieddate": 1711482519.4349999,
+	"lastmodifieddate": 1740603660.3200002,
 	"lastfoundlocation": [
-		26,
-		878,
-		37,
-		25
+		28,
+		871,
+		34,
+		24
 	],
 	"originalcapturelocation": [
 		26,
@@ -13,7 +13,7 @@
 		25
 	],
 	"createddate": 1711482519.4349999,
-	"lastfounddate": 1740579449.2680001,
+	"lastfounddate": 1740611012.9170001,
 	"testlocationdata": [
 		{
 				"connectionportnum": 3389,
@@ -29,7 +29,7 @@
 				"sutinfo": {
 					"type": "Unknown RDP"
 				},
-				"name": "WindowsRunIcon.png",
+				"name": "WindowsRunIcon/WindowsRunIcon.png",
 				"connectionname": "NewTower",
 				"type": 1,
 				"capturerect": [
@@ -40,6 +40,32 @@
 				],
 				"connectiontype": "RDP",
 				"connectionserverid": "192.168.4.62"
+			},
+		{
+				"connectionportnum": 50384,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[15,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "WindowsRunIcon/WindowsRunIcon_new.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"capturerect": [
+					28,
+					871,
+					34,
+					24
+				],
+				"connectiontype": "Single System",
+				"connectionserverid": "127.0.0.1"
 			}
 	],
 	"name": "WindowsRunIcon"

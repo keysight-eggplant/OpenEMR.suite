@@ -2,10 +2,10 @@
 <statistics>
  <script name="OpenEMR_PatientCreation">
   <LastStatus>Failure</LastStatus>
-  <NumberOfRuns>8</NumberOfRuns>
-  <NumberOfFails>8</NumberOfFails>
+  <NumberOfRuns>9</NumberOfRuns>
+  <NumberOfFails>9</NumberOfFails>
   <FirstRun>2024-03-26 15:44:27 -0400</FirstRun>
-  <LastRun>2024-10-29 10:38:02 -0400</LastRun>
+  <LastRun>2025-02-26 16:28:55 -0500</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
  </script>
  <script name="OpenEMR_Login">
@@ -26,19 +26,19 @@
  </script>
  <script name="OpenEMR_LaunchXAMPP">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfRuns>5</NumberOfRuns>
   <NumberOfFails>2</NumberOfFails>
   <FirstRun>2024-07-11 13:12:24 -0400</FirstRun>
-  <LastRun>2024-10-22 09:34:36 -0400</LastRun>
-  <TotalTimeOnSuccess>97.062000</TotalTimeOnSuccess>
+  <LastRun>2025-02-26 16:26:16 -0500</LastRun>
+  <TotalTimeOnSuccess>158.103000</TotalTimeOnSuccess>
  </script>
  <script name="OpenEMR_Launch">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>5</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
+  <NumberOfRuns>7</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
   <FirstRun>2024-03-26 15:48:45 -0400</FirstRun>
-  <LastRun>2025-02-26 09:17:24 -0500</LastRun>
-  <TotalTimeOnSuccess>331.963000</TotalTimeOnSuccess>
+  <LastRun>2025-02-26 16:28:04 -0500</LastRun>
+  <TotalTimeOnSuccess>357.653000</TotalTimeOnSuccess>
  </script>
  <script name="OpenEMR_InitialState">
   <LastStatus>Success</LastStatus>

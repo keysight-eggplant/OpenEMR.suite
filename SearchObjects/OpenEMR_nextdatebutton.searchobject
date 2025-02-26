@@ -1,0 +1,75 @@
+{
+	"originalcapturelocation": [
+		847,
+		215,
+		28,
+		27
+	],
+	"lastmodifieddate": 1740611041.944,
+	"createddate": 1740609959.049,
+	"name": "OpenEMR_nextdatebutton",
+	"lastfounddate": 1740611042.0549998,
+	"ocrcapturestring": "E",
+	"lastfoundlocation": [
+		821,
+		215,
+		28,
+		27
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 50384,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[14,13]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "OpenEMR_nextdatebutton.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"connectionserverid": "127.0.0.1",
+				"capturerect": [
+					847,
+					215,
+					28,
+					27
+				],
+				"connectiontype": "Single System",
+				"capturedocrtext": "E"
+			},
+		{
+				"connectionportnum": 50384,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[14,13]",
+					"Tolerance": 55,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "OpenEMR_nextdatebutton.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"connectionserverid": "127.0.0.1",
+				"capturerect": [
+					847,
+					215,
+					28,
+					27
+				],
+				"connectiontype": "Single System",
+				"capturedocrtext": "E"
+			}
+	]
+}

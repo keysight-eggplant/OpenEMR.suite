@@ -1,8 +1,15 @@
 ﻿on CheckProviderCalendar
 	//Confirm that calendar has finished loading
+	--(875,252,1593,284)
+	put ImageRectangle("OpenEMR_nextdatebutton") into myNextDateRectangle
+	put ImageRectangle("OpenEMR_printschedulebutton") into myPrintScheduleRectagle
+	put the right of myNextDateRectangle into x1
+	put (the bottom of myNextDateRectangle) + 10 into y1
+	put the left of myPrintScheduleRectagle into x2
+	put (the bottom of myNextDateRectangle) + 42 into y2
 	WaitFor 1.0, "OpenEMR_CloseProviderScheduleX"
 	set mySchedulingProviderFirstLastName to "Elizabeth Corday"
-	set mySchedulingProviderReadArea to HandlerGarage.ReturnSearchRectangle ("OpenEMR_CloseProviderScheduleX", 250,20,-900, 0)
+	set mySchedulingProviderReadArea to [x1,y1,x2,y2]
 	set mySchedulingProviderName to ReadText(mySchedulingProviderReadArea)
 	If mySchedulingProviderName = mySchedulingProviderFirstLastName then
 		LogSuccess "The correct provider schedule is displayed"

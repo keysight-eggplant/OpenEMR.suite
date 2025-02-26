@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1740610007.9130001,
+	"lastfoundlocation": [
+		1595,
+		209,
+		42,
+		38
+	],
+	"originalcapturelocation": [
+		1595,
+		209,
+		42,
+		38
+	],
+	"createddate": 1740610007.9130001,
+	"lastfounddate": 1740611042.1820002,
+	"testlocationdata": [
+		{
+				"connectionportnum": 50384,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[22,21]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "OpenEMR_printschedulebutton.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"capturerect": [
+					1595,
+					209,
+					42,
+					38
+				],
+				"connectiontype": "Single System",
+				"connectionserverid": "127.0.0.1"
+			}
+	],
+	"name": "OpenEMR_printschedulebutton"
+}

@@ -554,4 +554,66 @@ Invalid hostname or IP address: No such host is known.
   <ReturnValue></ReturnValue>
   <ErrorMessage></ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-02-26 16:28:55.635 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.926000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250226_162855.635/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:NewTower on port:0
+Invalid hostname or IP address: No such host is known. 
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-26 16:30:45.739 -0500</RunDate>
+  <Status>Aborted</Status>
+  <Duration>30.634000</Duration>
+  <Errors>1</Errors>
+  <Warnings>2</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>3</Successes>
+  <LogFile>20250226_163045.739/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-26 17:40:05.097 -0500</RunDate>
+  <Status>Aborted</Status>
+  <Duration>49.945000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250226_174005.097/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-26 17:41:52.351 -0500</RunDate>
+  <Status>Aborted</Status>
+  <Duration>58.829000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250226_174152.351/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-26 18:03:10.495 -0500</RunDate>
+  <Status>Aborted</Status>
+  <Duration>70.223000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20250226_180310.495/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
 </runHistory>

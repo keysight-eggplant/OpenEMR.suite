@@ -1,8 +1,8 @@
 {
-	"lastmodifieddate": 1727268414.54,
+	"lastmodifieddate": 1740604431.1490002,
 	"lastfoundlocation": [
-		15,
-		1051,
+		681,
+		1042,
 		18,
 		18
 	],
@@ -13,7 +13,7 @@
 		18
 	],
 	"createddate": 1720718099.2610002,
-	"lastfounddate": 1740579413.914,
+	"lastfounddate": 1740605176.4619999,
 	"testlocationdata": [
 		{
 				"connectionportnum": 3389,
@@ -66,6 +66,32 @@
 				],
 				"connectiontype": "RDP",
 				"connectionserverid": "192.168.4.62"
+			},
+		{
+				"connectionportnum": 50384,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[9,9]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "Win10_StartButton/Win11_StartButton.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"capturerect": [
+					703,
+					1042,
+					18,
+					18
+				],
+				"connectiontype": "Single System",
+				"connectionserverid": "127.0.0.1"
 			}
 	],
 	"name": "Win10_StartButton"

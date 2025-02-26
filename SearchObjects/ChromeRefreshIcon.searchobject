@@ -5,10 +5,10 @@
 		18,
 		19
 	],
-	"lastmodifieddate": 1720715653.9850001,
+	"lastmodifieddate": 1740604148.493,
 	"createddate": 1711482638.0139999,
 	"name": "ChromeRefreshIcon",
-	"lastfounddate": 1740580444.766,
+	"lastfounddate": 1740611048.0829999,
 	"ocrcapturestring": "0",
 	"lastfoundlocation": [
 		86,
@@ -69,6 +69,33 @@
 					19
 				],
 				"connectiontype": "RDP",
+				"capturedocrtext": "0"
+			},
+		{
+				"connectionportnum": 50384,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[7,8]",
+					"Tolerance": 85,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "ChromeRefreshIcon.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"connectionserverid": "127.0.0.1",
+				"capturerect": [
+					86,
+					53,
+					18,
+					19
+				],
+				"connectiontype": "Single System",
 				"capturedocrtext": "0"
 			}
 	]
