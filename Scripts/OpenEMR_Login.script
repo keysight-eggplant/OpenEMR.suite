@@ -4,8 +4,6 @@ TypeText "jmarkovic",Tab
 TypeEncodedText "<QXV_XXeJXdv!","viper"
 TypeText Tab
 
-
-
 Click text:"Login", waitFor:5,SearchRectangle:HandlerGarage.ScreenPart("Center"), dpi:96
 Wait until ImageFound(imageName:"ChromeRefreshIcon", waitFor:0) is false
 WaitFor 60, "ChromeRefreshIcon"

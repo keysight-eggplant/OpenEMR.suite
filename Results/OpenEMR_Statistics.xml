@@ -2,19 +2,19 @@
 <statistics>
  <script name="OpenEMR_PatientCreation">
   <LastStatus>Failure</LastStatus>
-  <NumberOfRuns>7</NumberOfRuns>
-  <NumberOfFails>7</NumberOfFails>
+  <NumberOfRuns>8</NumberOfRuns>
+  <NumberOfFails>8</NumberOfFails>
   <FirstRun>2024-03-26 15:44:27 -0400</FirstRun>
-  <LastRun>2024-10-22 07:24:06 -0400</LastRun>
+  <LastRun>2024-10-29 10:38:02 -0400</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
  </script>
  <script name="OpenEMR_Login">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfRuns>5</NumberOfRuns>
   <NumberOfFails>1</NumberOfFails>
   <FirstRun>2024-03-26 15:49:28 -0400</FirstRun>
-  <LastRun>2024-03-26 15:52:16 -0400</LastRun>
-  <TotalTimeOnSuccess>12.626000</TotalTimeOnSuccess>
+  <LastRun>2025-02-26 09:32:12 -0500</LastRun>
+  <TotalTimeOnSuccess>25.210000</TotalTimeOnSuccess>
  </script>
  <script name="Sandbox">
   <LastStatus>Success</LastStatus>
@@ -26,19 +26,19 @@
  </script>
  <script name="OpenEMR_LaunchXAMPP">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfRuns>4</NumberOfRuns>
   <NumberOfFails>2</NumberOfFails>
   <FirstRun>2024-07-11 13:12:24 -0400</FirstRun>
-  <LastRun>2024-07-18 09:45:13 -0400</LastRun>
-  <TotalTimeOnSuccess>12.015000</TotalTimeOnSuccess>
+  <LastRun>2024-10-22 09:34:36 -0400</LastRun>
+  <TotalTimeOnSuccess>97.062000</TotalTimeOnSuccess>
  </script>
  <script name="OpenEMR_Launch">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfRuns>5</NumberOfRuns>
   <NumberOfFails>0</NumberOfFails>
   <FirstRun>2024-03-26 15:48:45 -0400</FirstRun>
-  <LastRun>2024-07-17 22:37:58 -0400</LastRun>
-  <TotalTimeOnSuccess>323.334000</TotalTimeOnSuccess>
+  <LastRun>2025-02-26 09:17:24 -0500</LastRun>
+  <TotalTimeOnSuccess>331.963000</TotalTimeOnSuccess>
  </script>
  <script name="OpenEMR_InitialState">
   <LastStatus>Success</LastStatus>

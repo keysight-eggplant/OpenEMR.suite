@@ -1,20 +1,20 @@
 {
 	"originalcapturelocation": [
-		104,
-		242,
-		42,
-		38
+		1301,
+		125,
+		18,
+		18
 	],
-	"lastmodifieddate": 1721236769.9879999,
-	"createddate": 1721236718.9400001,
-	"name": "CalendarSearchIcon_blue",
-	"lastfounddate": 1740580336.8730001,
-	"ocrcapturestring": "Q",
+	"lastmodifieddate": 1730212814.546,
+	"createddate": 1730212814.546,
+	"name": "OpenEMR_CloseX",
+	"lastfounddate": 1740514635.6199999,
+	"ocrcapturestring": "□",
 	"lastfoundlocation": [
-		104,
-		243,
-		42,
-		38
+		1301,
+		125,
+		18,
+		18
 	],
 	"testlocationdata": [
 		{
@@ -23,7 +23,7 @@
 					"CropRectangle": "[0,0,0,0]",
 					"Rotate": 0,
 					"Scale": "    1",
-					"HotSpot": "[19,16]",
+					"HotSpot": "[8,10]",
 					"Tolerance": "_45",
 					"Discrepancy": "_0",
 					"SearchType": "Tolerant of Background"
@@ -31,18 +31,18 @@
 				"sutinfo": {
 					"type": "Unknown RDP"
 				},
-				"name": "CalendarSearchIcon_blue/CalendarSearchIcon_blue.png",
+				"name": "OpenEMR_CloseX.png",
 				"connectionname": "NewTower",
 				"type": 1,
 				"connectionserverid": "192.168.4.62",
 				"capturerect": [
-					104,
-					242,
-					42,
-					38
+					1301,
+					125,
+					18,
+					18
 				],
 				"connectiontype": "RDP",
-				"capturedocrtext": "Q"
+				"capturedocrtext": "□"
 			}
 	]
 }

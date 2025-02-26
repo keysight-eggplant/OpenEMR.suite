@@ -1,4 +1,4 @@
-﻿//Set globals
+﻿PressHomeButton//Set globals
 global myConnectionString
 global myRecordCount
 global myCurrentRecord
@@ -73,11 +73,11 @@ End If
 
 Click (Image:"OpenEMR_CloseX", WaitFor:1)
 
-Run HandlerGarage.ScrollUpToFindText "Who",HandlerGarage.ScreenPart("TopLeftQuadrant"),(800,450),Y
+Run HandlerGarage.ScrollUpToFindText "Who",HandlerGarage.ScreenPart("TopLeftQuadrant"),(800,450),N
 
 //Set search areas for OpenEMR Who
 Wait 1
-WaitFor 10, text:"Employer",SearchRectangle:HandlerGarage.ScreenPart("BottomTenth")
+WaitFor 10, text:"Guardian",SearchRectangle:HandlerGarage.ScreenPart("BottomTenth")
 MoveTo (800,450)
 Set myDemographicsRowHeadersSearchArea to ImageRectangle(text:"Who", waitFor:5,SearchRectangle:HandlerGarage.ScreenPart("TopLeftQuadrant")) +(-2,40,170,350)
 Set mySOGI_RowSearchArea to ImageRectangle(text:"Gender Identity", waitFor:1,SearchRectangle:myDemographicsRowHeadersSearchArea) + (280,-1,900,16)

@@ -7,7 +7,7 @@ End If
 TypeText windowsKey,"r"
 WaitFor 30, "WindowsRunIcon"
 TypeText "http://localhost/openemr/interface/login/login.php?site=default",Return
-MoveTo (800,450)
+Click (800,450)
 WaitFor 60, "ChromeRefreshIcon"
 
 
